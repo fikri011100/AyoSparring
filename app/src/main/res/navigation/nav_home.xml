@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/nav_home"
+  app:startDestination="@id/menu_home">
+
+  <fragment
+    android:id="@+id/menu_home"
+    android:label="fragment_home"
+    android:name="bncc.net.ayosparring.ui.home.fragments.HomeFragment"
+    tools:layout="@layout/fragment_home" />
+  <fragment
+    android:id="@+id/menu_room"
+    android:label="fragment_room"
+    android:name="bncc.net.ayosparring.ui.home.fragments.RoomFragment"
+    tools:layout="@layout/fragment_room" />
+  <fragment
+    android:id="@+id/menu_history"
+    android:label="fragment_history"
+    android:name="bncc.net.ayosparring.ui.home.fragments.HistoryFragment"
+    tools:layout="@layout/fragment_history" />
+  <fragment
+    android:id="@+id/menu_profile"
+    android:label="fragment_profile"
+    android:name="bncc.net.ayosparring.ui.home.fragments.ProfileFragment"
+    tools:layout="@layout/fragment_profile" />
+</navigation>

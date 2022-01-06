@@ -1,0 +1,119 @@
+<resources>
+  <string name="app_name">AyoSparring</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="title_activity_navbar">NavbarActivity</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="nav_header_title">Android Studio</string>
+  <string name="nav_header_subtitle">android.studio@android.com</string>
+  <string name="nav_header_desc">Navigation header</string>
+  <string name="action_settings">Settings</string>
+
+  <string name="menu_home">Home</string>
+  <string name="menu_gallery">Gallery</string>
+  <string name="menu_slideshow">Slideshow</string>
+
+  <string-array name="City">
+    <item>Kabupaten Bangkalan</item>
+    <item>Kabupaten Banyuwangi</item>
+    <item>Kabupaten Blitar</item>
+    <item>Kabupaten Bojonegoro</item>
+    <item>Kabupaten Bondowoso</item>
+    <item>Kabupaten Gresik</item>
+    <item>Kabupaten Jember</item>
+    <item>Kabupaten Jombang</item>
+    <item>Kabupaten Kediri</item>
+    <item>Kabupaten Lamongan</item>
+    <item>Kabupaten Lumajang</item>
+    <item>Kabupaten Madiun</item>
+    <item>Kabupaten Magetan</item>
+    <item>Kabupaten Malang</item>
+    <item>Kabupaten Mojokerto</item>
+    <item>Kabupaten Nganjuk</item>
+    <item>Kabupaten Ngawi</item>
+    <item>Kabupaten Pacitan</item>
+    <item>Kabupaten Pamekasan</item>
+    <item>Kabupaten Pasuruan</item>
+    <item>Kabupaten Ponorogo</item>
+    <item>Kabupaten Probolinggo</item>
+    <item>Kabupaten Sampang</item>
+    <item>Kabupaten Sidoarjo</item>
+    <item>Kabupaten Situbondo</item>
+    <item>Kabupaten Sumenep</item>
+    <item>Kabupaten Trenggalek</item>
+    <item>Kabupaten Tuban</item>
+    <item>Kabupaten Tulungagung</item>
+    <item>Kota Batu</item>
+    <item>Kota Blitar</item>
+    <item>Kota Kediri</item>
+    <item>Kota Madiun</item>
+    <item>Kota Malang</item>
+    <item>Kota Mojokerto</item>
+    <item>Kota Pasuruan</item>
+    <item>Kota Probolinggo</item>
+    <item>Kota Surabaya</item>
+    <item>Kabupaten Bandung</item>
+    <item>Kabupaten Bandung Barat</item>
+    <item>Kabupaten Bekasi</item>
+    <item>Kabupaten Bogor</item>
+    <item>Kabupaten Ciamis</item>
+    <item>Kabupaten Cianjur</item>
+    <item>Kabupaten Cirebon</item>
+    <item>Kabupaten Garut</item>
+    <item>Kabupaten Indramayu</item>
+    <item>Kabupaten Karawang</item>
+    <item>Kabupaten Kuningan</item>
+    <item>Kabupaten Majalengka</item>
+    <item>Kabupaten Pangandaran</item>
+    <item>Kabupaten Purwakarta</item>
+    <item>Kabupaten Subang</item>
+    <item>Kabupaten Sukabumi</item>
+    <item>Kabupaten Sumedang</item>
+    <item>Kabupaten Tasikmalaya</item>
+    <item>Kota Bandung</item>
+    <item>Kota Banjar</item>
+    <item>Kota Bekasi</item>
+    <item>Kota Bogor</item>
+    <item>Kota Cimahi</item>
+    <item>Kota Cirebon</item>
+    <item>Kota Depok</item>
+    <item>Kota Sukabumi</item>
+    <item>Kota Tasikmalaya</item>
+    <item>Kabupaten Banjarnegara</item>
+    <item>Kabupaten Banyumas</item>
+    <item>Kabupaten Batang</item>
+    <item>Kabupaten Blora</item>
+    <item>Kabupaten Boyolali</item>
+    <item>Kabupaten Brebes</item>
+    <item>Kabupaten Cilacap</item>
+    <item>Kabupaten Demak</item>
+    <item>Kabupaten Grobogan</item>
+    <item>Kabupaten Jepara</item>
+    <item>Kabupaten Karanganyar</item>
+    <item>Kabupaten Kebumen</item>
+    <item>Kabupaten Kendal</item>
+    <item>Kabupaten Klaten</item>
+    <item>Kabupaten Kudus</item>
+    <item>Kabupaten Magelang</item>
+    <item>Kabupaten Pati</item>
+    <item>Kabupaten Pekalongan</item>
+    <item>Kabupaten Pemalang</item>
+    <item>Kabupaten Purbalingga</item>
+    <item>Kabupaten Purworejo</item>
+    <item>Kabupaten Rembang</item>
+    <item>Kabupaten Semarang</item>
+    <item>Kabupaten Sragen</item>
+    <item>Kabupaten Sukoharjo</item>
+    <item>Kabupaten Tegal</item>
+    <item>Kabupaten Temanggung</item>
+    <item>Kabupaten Wonogiri</item>
+    <item>Kabupaten Wonosobo</item>
+    <item>Kota Magelang</item>
+    <item>Kota Pekalongan</item>
+    <item>Kota Salatiga</item>
+    <item>Kota Semarang</item>
+    <item>Kota Surakarta</item>
+    <item>Kota Tegal</item>
+  </string-array>
+</resources>

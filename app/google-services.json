@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218577278099",
+    "project_id": "ayo-sparring",
+    "storage_bucket": "ayo-sparring.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218577278099:android:444938bcd9bc43725ae966",
+        "android_client_info": {
+          "package_name": "bncc.net.ayosparring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218577278099-vqe7r54cmgar8ajf9cj9998603tp7t6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFUTvrGzpx7DAWHN-aV8WXWdAbccm4lrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218577278099-vqe7r54cmgar8ajf9cj9998603tp7t6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
