@@ -33,7 +33,7 @@ object StringHelper {
     }
 
     fun formatDate(value: String?): String? {
-        return formatingDateFromString("dd/MM/yyyy HH:mm", " dd MMM yyyy", value)
+        return formatingDateFromString("dd/MM/yyyy", " dd MMM yyyy", value)
     }
 
     fun formatingDateFromString(

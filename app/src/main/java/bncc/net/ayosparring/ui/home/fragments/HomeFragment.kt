@@ -20,12 +20,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentHomeBinding.bind(view)
-        val city = resources.getStringArray(R.array.City)
-        val adapter = ArrayAdapter(
-                requireContext(),
-                android.R.layout.simple_list_item_1, city
-        )
-        binding.edtKota.setAdapter(adapter)
 
         val firestore = FirebaseFirestore.getInstance()
         setData(firestore)

@@ -14,6 +14,13 @@
   <string name="menu_gallery">Gallery</string>
   <string name="menu_slideshow">Slideshow</string>
 
+  <string-array name="category">
+    <item>Sepak Bola</item>
+    <item>Futsal</item>
+    <item>Volley</item>
+    <item>Basket</item>
+  </string-array>
+
   <string-array name="City">
     <item>Kabupaten Bangkalan</item>
     <item>Kabupaten Banyuwangi</item>
