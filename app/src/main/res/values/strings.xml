@@ -11,8 +11,11 @@
   <string name="action_settings">Settings</string>
 
   <string name="menu_home">Home</string>
+  <string name="web_client">218577278099-vqe7r54cmgar8ajf9cj9998603tp7t6s.apps.googleusercontent.com</string>
   <string name="menu_gallery">Gallery</string>
   <string name="menu_slideshow">Slideshow</string>
+  <string name="menu_started">Olahraga bersama teman dapat memperbaiki mental kita karena setelah
+    kita melakukan aktifitas yang berat kita dapat menceritakannya kepada teman kita</string>
 
   <string-array name="category">
     <item>Sepak Bola</item>

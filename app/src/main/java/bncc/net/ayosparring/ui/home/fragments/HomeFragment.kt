@@ -10,30 +10,36 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import bncc.net.ayosparring.R
 import bncc.net.ayosparring.databinding.FragmentHomeBinding
 import bncc.net.ayosparring.model.Room
+import bncc.net.ayosparring.model.RoomId
 import bncc.net.ayosparring.ui.home.adapter.RoomAdapter
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private lateinit var binding: FragmentHomeBinding
+    private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentHomeBinding.bind(view)
 
         val firestore = FirebaseFirestore.getInstance()
+        firebaseAuth = FirebaseAuth.getInstance()
+        binding.textHay.text = "Hey ${firebaseAuth.currentUser?.displayName},"
         setData(firestore)
     }
 
     private fun getFireStore(
             category: String, firestore: FirebaseFirestore, data:
-            ArrayList<Room>
+            ArrayList<RoomId>
     ) {
         firestore.collection("room").whereEqualTo("category", category).get()
                 .addOnSuccessListener { result ->
                     for (document in result) {
                     data.add(
-                        Room(
+                        RoomId(
+                            document.id,
                             document.data["username"].toString(),
                             document.data["name"].toString(),
                             document.data["title"].toString(),
@@ -50,7 +56,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                         )
                     )
                     }
-                val roomAdapter = RoomAdapter(data, requireContext(), category)
+                val roomAdapter = RoomAdapter(data, requireContext(), category, firestore)
                 binding.rvRoom.apply {
                     adapter = roomAdapter
                     layoutManager = LinearLayoutManager(requireContext())
@@ -61,7 +67,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     }
 
     private fun setData(firestore: FirebaseFirestore) {
-        var data: ArrayList<Room>?
+        var data: ArrayList<RoomId>?
         data = arrayListOf()
 
         getFireStore("Sepak Bola", firestore, data)

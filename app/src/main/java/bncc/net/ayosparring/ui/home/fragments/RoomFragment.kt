@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import bncc.net.ayosparring.R
 import bncc.net.ayosparring.databinding.FragmentRoomBinding
 import bncc.net.ayosparring.ui.room.CreateRoomActivity
+import bncc.net.ayosparring.ui.room.MyRoomActivity
 
 class RoomFragment : Fragment(R.layout.fragment_room) {
 
@@ -20,6 +21,10 @@ class RoomFragment : Fragment(R.layout.fragment_room) {
 
         binding.cardMakeroom.setOnClickListener {
             val intent = Intent(requireContext(), CreateRoomActivity::class.java)
+            requireContext().startActivity(intent)
+        }
+        binding.cardMyroom.setOnClickListener {
+            val intent = Intent(requireContext(), MyRoomActivity::class.java)
             requireContext().startActivity(intent)
         }
     }

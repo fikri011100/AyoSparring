@@ -87,7 +87,7 @@ class CreateRoomActivity : AppCompatActivity() {
                         "Fikri Imadudin",
                         binding.inputTextCreateSuratTitle.text.toString(),
                         binding.inputTextCreateSuratKeterangan.text.toString(),
-                        date,
+                        binding.inputTextDate.text.toString(),
                         binding.inputTextStart.text.toString(),
                         binding.inputTextLapangan.text.toString(),
                         binding.inputTextLokasi.text.toString(),

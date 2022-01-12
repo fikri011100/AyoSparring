@@ -11,19 +11,27 @@
     android:theme="@style/Theme.AyoSparring">
     <activity
       android:exported="false"
+      android:name=".ui.room.MyRoomActivity" />
+    <activity
+      android:exported="false"
       android:name=".ui.room.CreateRoomActivity" />
     <activity
       android:exported="false"
       android:name=".ui.room.DetailRoomActivity" />
     <activity
       android:exported="true"
-      android:name=".MainActivity">
+      android:name=".ui.auth.AuthActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
 
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity
+      android:exported="true"
+      android:name=".MainActivity"></activity>
   </application>
+
+  <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
